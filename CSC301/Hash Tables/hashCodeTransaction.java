@@ -11,6 +11,7 @@
  *
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
+ *  Algs book example
  ******************************************************************************/
 
 public class Transaction implements Comparable<Transaction> {
