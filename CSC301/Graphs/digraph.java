@@ -1,4 +1,5 @@
 /******************************************************************************
+ *  @author: Algs book problem used by Luigi Aleece
  *  Question
  *  Modify Digraph to disallow parallel edges and self-loops.
  ******************************************************************************/

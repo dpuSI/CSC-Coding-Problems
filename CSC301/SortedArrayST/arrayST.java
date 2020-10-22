@@ -1,4 +1,5 @@
 /******************************************************************************
+ *  @author  Luigi Aleece
  *  Question
  *  1. Implement the put method to insert key value pairs in this symbol table implementation.
  *  2. Implement Get.
