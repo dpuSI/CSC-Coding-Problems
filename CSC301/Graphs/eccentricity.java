@@ -1,4 +1,5 @@
 /******************************************************************************
+ *  @author: Algs book problem execerise 16 - used by Luigi Aleece
  *  Question
  *  The eccentricity of a vertex v is the length of the shortest path from that
  *  vertex to the furthest vertex from v. The diameter of a graph is the maximum
