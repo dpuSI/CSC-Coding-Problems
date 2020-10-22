@@ -31,19 +31,6 @@ public static int sumAB(int a, int b) {
     }
 }
 
-// For the given list, what is the printed from the code below?
-
-int[] myList = new int[]{ 0, 4, 3, 5, 4, -5, 1, 1 };
-int c = 0;
-for (int i = 0; i < list.length; i += 2) {
-	c += list[i];
-}
-System.out.println(c);
-
-// Answer: 8
-
-
-
 
 /*
  * Recursion
