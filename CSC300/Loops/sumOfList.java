@@ -1,7 +1,7 @@
 /**
  * Returns the sum of numbers in a list.
  *
- * @author  Antonio Gaspari
+ * @author Antonio Gaspari
  *
  * @param list  The integer array to iterate over
  *

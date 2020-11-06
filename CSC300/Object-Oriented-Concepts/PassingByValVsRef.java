@@ -1,5 +1,9 @@
-// Polina
-
+/**
+ * Compare the difference between pass by value vs pass by reference.
+ *
+ * @author Polina Petrakova
+ */
+ 
 // Value
 public static void main(String[] args){
   int x = 6;
