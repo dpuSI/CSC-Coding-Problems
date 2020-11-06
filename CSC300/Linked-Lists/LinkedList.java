@@ -59,32 +59,6 @@ public class LinkedList {
 
   // methods
 
-  // print the data of the LinkedList in order
-  public void printList () {
-    Node curr = head;   // start at the beginning of the list
-
-    for (; curr != null; curr = curr.next) {
-      System.out.printf("%d ", curr.data);    // print the data of current node
-    }
-    System.out.println();
-  }
-
-  // insert a new piece of data into list
-  public void insert (int element) {
-    Node p = new Node(element);  // construct Node from given element
-
-    if (first==null) {          // if list is empty
-      first = p;                // make new Node head
-      return;
-    }
-
-    Node temp = first;          // else
-    while (temp.next != null) { // iterate down list until at last Node
-      temp=temp.next;
-    }
-    temp.next=p;  // set new Node as new last Node
-    return;
-  }
 
   // delete first found Node with given data
   public void deleteData (int d)
@@ -105,21 +79,5 @@ public class LinkedList {
     if (temp == null) return; // return if d not found
 
     prev.next = temp.next;   // if found, delink Node with data d
-  }
-
-  // reverse the order of the list
-  public void reverseList () {
-    Node prev = null;
-    Node curr = head;           // starting at the head
-    Node next = null;
-
-    while (curr != null) {      // iterate through the list
-        next = curr.next;       // set next to Node's successor
-        curr.next = prev;       // switch Node's predeccesor to successor
-        prev = curr;            // set prev to current Node
-        current = next;         // iterate
-    }
-
-    head = prev;                // set the new head
   }
 }
